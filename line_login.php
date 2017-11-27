@@ -16,7 +16,7 @@ $segment = $session->getSegment('Vendor\Package\ClassName');
 $csrf_value = $session->getCsrfToken()->getValue();
 
 $callback = urlencode('https://' . $_SERVER['HTTP_HOST']  . '/line_callback.php');
-$url = 'https://access.line.me/dialog/oauth/weblogin?response_type=code&client_id=' . getenv('LOGIN_CHANNEL_ID') . '&redirect_uri=' . $callback . '&state=' . $csrf_value;
+$url = 'https://access.line.me/dialog/oauth/weblogin?response_type=code&client_id=' . getenv('1539757035') . '&redirect_uri=' . $callback . '&state=' . $csrf_value;
 echo '<a href=' . $url . '><button class="contact">LINE Login v2 Sample</button></a>';
 
 ?>
