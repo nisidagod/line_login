@@ -1,0 +1,12 @@
+{
+    "name": "#LINE Messaging API test PHP",
+    "description": "Lineログイン,
+    "repository": "https://github.com/nisidagod/line_login.git",
+    "logo": "",
+    "keywords": ["php", "line-messaging-api"],
+    "env": {
+      "LINE_CHANNEL_ACCESS_TOKEN": {
+        "description": "Channel Access Token (LINE developers の Basic information で確認できます)"
+      }
+    }
+}
