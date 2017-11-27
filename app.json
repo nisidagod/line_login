@@ -1,8 +1,7 @@
 {
     "name": "#LINE Messaging API test PHP",
-    "description": "Lineログイン,
+    "description": "aiueo",
     "repository": "https://github.com/nisidagod/line_login.git",
-    "logo": "",
     "keywords": ["php", "line-messaging-api"],
     "env": {
       "LINE_CHANNEL_ACCESS_TOKEN": {
